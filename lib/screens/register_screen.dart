@@ -196,7 +196,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Image.asset("images/Google.jpg", height: 22),
+                            Image.asset("images/Google.png", height: 22),
                             const SizedBox(width: 8),
                             const Text(
                               "Continue with Google",
