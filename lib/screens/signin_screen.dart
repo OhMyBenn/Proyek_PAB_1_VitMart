@@ -87,23 +87,14 @@ class _SignInScreenState extends State<SignInScreen> {
 
             // LOGO
             Container(
-              height: 90,
-              width: 90,
-              decoration: BoxDecoration(
-                color: Colors.red,
-                borderRadius: BorderRadius.circular(10),
-              ),
-              child: const Center(
-                child: Text(
-                  "VitMart",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 18,
-                  ),
+                height: 90,
+                width: 90,
+                decoration: BoxDecoration(
+                  color: Colors.red,
+                  borderRadius: BorderRadius.circular(10),
                 ),
+                child: Center(child: Image.asset("images/vitmart.jpg")),
               ),
-            ),
 
             const SizedBox(height: 20),
 
